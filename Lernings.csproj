@@ -49,9 +49,12 @@
     <Compile Include="Patterns\ContinuousAlphabet.cs" />
     <Compile Include="Patterns\ContinuousNo.cs" />
     <Compile Include="Patterns\Diamond.cs" />
+    <Compile Include="Patterns\Hollow.cs" />
     <Compile Include="Patterns\InvertedLeftTriangle.cs" />
+    <Compile Include="Patterns\InvertedNoPyramid.cs" />
     <Compile Include="Patterns\InvertedPyramid.cs" />
     <Compile Include="Patterns\InvertedRightTriangle.cs" />
+    <Compile Include="Patterns\NoPyramid .cs" />
     <Compile Include="Patterns\NoTringle.cs" />
     <Compile Include="Patterns\Pattern1.cs" />
     <Compile Include="Patterns\Pattern2.cs" />

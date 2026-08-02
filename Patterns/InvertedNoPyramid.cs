@@ -6,29 +6,32 @@ using System.Threading.Tasks;
 
 namespace Lernings.Patterns
 {
-    internal class InvertedRightTriangle
+    internal class InvertedNoPyramid
     {
         static void Main(string[] args)
         {
-            int num = 4;
-            for(int i=num; i>=1; i--)
+            int num = 5;
+            for (int i = num; i >=1; i--)
             {
-                for(int space=0; space<num-i; space++) //1 
+                for (int space = 1; space <= num - i; space++)
                 {
                     Console.Write(" ");
                 }
-                for(int j=1; j<=i; j++)
+                for (int j = 1; j <= i; j++)
                 {
-                    Console.Write("*");
+                    Console.Write(j);
+
                 }
+
+                for (int k = i - 1; k >= 1; k--)
+                {
+                    Console.Write(k);
+                }
+
+
                 Console.WriteLine();
+
             }
         }
-            
     }
 }
-//fluad pattern 
-//****
-// ***
-//  **
-//   *
