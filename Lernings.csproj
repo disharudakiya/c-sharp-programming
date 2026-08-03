@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Numbers\LeapYear.cs" />
+    <Compile Include="Numbers\ReverseNumber.cs" />
+    <Compile Include="Numbers\SumNo.cs" />
+    <Compile Include="Numbers\SwapToNo.cs" />
     <Compile Include="OOP\Animal.cs" />
     <Compile Include="OOP\PerameterizedCon.cs" />
+    <Compile Include="Patterns\BinaryNoTringle.cs" />
+    <Compile Include="Patterns\Butterfly.cs" />
     <Compile Include="Patterns\CharacterTringle.cs" />
     <Compile Include="Patterns\ContinuousAlphabet.cs" />
     <Compile Include="Patterns\ContinuousNo.cs" />
@@ -56,6 +62,8 @@
     <Compile Include="Patterns\InvertedRightTriangle.cs" />
     <Compile Include="Patterns\NoPyramid .cs" />
     <Compile Include="Patterns\NoTringle.cs" />
+    <Compile Include="Patterns\Number.cs" />
+    <Compile Include="Patterns\Number1.cs" />
     <Compile Include="Patterns\Pattern1.cs" />
     <Compile Include="Patterns\Pattern2.cs" />
     <Compile Include="Patterns\Pyramid.cs" />

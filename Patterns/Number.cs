@@ -6,21 +6,18 @@ using System.Threading.Tasks;
 
 namespace Lernings.Patterns
 {
-    internal class Pyramid
+    internal class Number
     {
         static void Main(string[] args)
         {
-            int num = 5;
-           
+            Console.Write("Enter No :- ");
+            int num = Convert.ToInt32((Console.ReadLine()));
+            //int num = 4;
             for (int i=1; i<=num; i++)
             {
-                for(int space=1; space<=num-i; space++)
+                for(int j=num; j>=i; j--)
                 {
-                    Console.Write(" ");
-                }
-                for(int j=1; j<= i * 2 - 1; j++)
-                {
-                    Console.Write("*");
+                   Console.Write(j);
                 }
                 Console.WriteLine();
             }
@@ -28,9 +25,7 @@ namespace Lernings.Patterns
     }
 }
 
-//    *
-//   ***
-//  *****
-// *******
-//*********
-
+//4321
+//432
+//43
+//4
